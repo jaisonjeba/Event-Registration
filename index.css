@@ -1,0 +1,65 @@
+.layout{
+    border: 2px solid black;
+    width: 580px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    text-align: center;
+    margin: 1px 0px 1px 0px;
+    font-family: cursive;
+    font-size: 20px;
+}
+p{
+    text-align: center;
+    margin: 5px;
+}
+.content{
+    border: 2px solid black;
+    width: auto;
+    height: auto;
+    margin: 0px 10px 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pictures{
+    width: auto;
+    height: auto;
+    margin: 5px 0px 0px 5px;
+}
+.details{
+    width: auto;
+    height: auto;
+    margin: 5px 0px 5px 20px;
+    padding: 5px;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.names{
+    margin: 5px 0px 3px 0px;
+    padding-left: 90px;
+}
+.emails{
+    margin: 0px 0px 3px 0px;
+    padding-left: 90px ;
+}
+.phones{
+    padding-left: 65px ;
+    margin-top: 3px;
+} 
+.select{
+    padding-right:113px ;
+    margin-top: 3px;
+}
+.attendee{
+    padding-left: 0px;
+    margin-top: 3px;
+}
+.submits{
+    padding-left:100px ;
+    margin-top: 10px;
+}
